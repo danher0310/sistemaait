@@ -42,6 +42,13 @@
                             <li><a href="#">Modificarl</a></li>
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Asignacion  <span class="glyphicon glyphicon-chevron-down" aria-hidden="true" style="color: white"></span></a> 
+                        <ul class="dropdown-menu" id="menu2">
+                            <li><a href="#">Registrar</a></li>
+                            <li><a href="#">Modificarl</a></li>
+                        </ul>
+                    </li>
 
                     
 					
