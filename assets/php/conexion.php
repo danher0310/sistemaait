@@ -8,9 +8,6 @@ $mysqli = new mysqli($host, $user, $pass, $db);
 if ($mysqli->connect_error) {
 	echo "Error: ".$mysqli->connect_error;
 }
-else{
-	echo 'Estamos conectados';
-}
 
 //probando pdo//
 

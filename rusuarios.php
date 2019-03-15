@@ -30,31 +30,42 @@
 					<form  id="registrar-usuario">
 
 			 		 	 <div class="input-group">
-			 		 	 	 <span class="input-group-addon">Nombre :</span>		                    	
-	                        <input class="form-control" type="text"  placeholder="Jhon " aria-describedby="basic-addon3" id="name" >
+			 		 	 	 <span class="input-group-addon">Equipo:</span>	                    	
+	                        <input class="form-control" type="text"  placeholder="Jhon Doe" aria-describedby="basic-addon3" id="name" >
 	                    </div>
-	                     <div class="input-group">
-			 		 	 	 <span class="input-group-addon">Apellido:</span>		                    	
-	                        <input class="form-control" type="text"  placeholder=" Doe" aria-describedby="basic-addon3" id="apellido" >
-	                    </div>
+	                    
 	                    <div class="input-group" >    
 					       <span class="input-group-addon">Cedula</span>
-					         <select id="cedula" name="cedula" class="form-control">
+					         <select id="t-cedula" name="t-cedula" class="form-control">
 					         	<option value="">Seleccione</option>
 						        <option value="V">V</option>
 						        <option value="E">E</option>
+						         <option value="P">P</option>
 						    </select>
 						    <span class="input-group-addon">-</span>
-						     <input type="text" id="cedula" name="cedula" required="required" class="form-control" value="5848352">
+						     <input type="text" id="cedula" name="cedula"  class="form-control" id="cedula">
 					    </div>
 	                    <div class="input-group">
 			 		 	 	<span class="input-group-addon">Correo:</span>
 	                        <input class="form-control" type="email"  placeholder="jhondoe@email.com" id="email" >
-	                    </div>      
+	                    </div>     
+	                    <div class="input-group">
+			 		 	 	<span class="input-group-addon">Usuario:</span>
+	                        <input class="form-control" type="text"  placeholder="jhondoe" id="usuario" >
+	                    </div> 
+	                     <div class="input-group">
+			 		 	 	<span class="input-group-addon">Contraseña:</span>
+	                        <input class="form-control" type="password"   id="password" >
+	                    </div> 
+	                    <div class="input-group">
+			 		 	 	<span class="input-group-addon"> Confirmacion de Contraseña:</span>
+	                        <input class="form-control" type="password"   id="conf-pass" >
+	                    </div> 
+
 
 	                    <div class="input-group">
 	                         <span class="input-group-addon">Tipo de usuario:</span>	
-	                          <select id="cedula" name="cedula" class="form-control">
+	                          <select id="t-usuario" name="cedula" class="form-control">
 					         	<option value="">Seleccione</option>
 						        <option value="usuario">Usuario</option>
 						        <option value="administrador">Administrador</option>
@@ -63,8 +74,8 @@
 	                   
 	                   
 	                    <div class="text-center" style= "margin-top: 40px">
-	                        <button class="btn btn-form"   type="submit">Registrar
-	                        </button>
+	                        <button class="btn btn-form"   type="submit"> Registrar
+	                        </button> 
 	                    </div>
                 	</form>
 					

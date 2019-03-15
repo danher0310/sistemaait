@@ -88,11 +88,12 @@
 	margin-top: 150px;
 }
 #formulario{
-	padding-top: 40px;
+	padding-top: 20px;
 	background: rgba(21,189,204,0.1);;
 	width: 600px;
 	float: none;
 	border-radius: 20px;
+    padding-bottom: 20px;
 }
 
 #registrar-equipo .input-group{
