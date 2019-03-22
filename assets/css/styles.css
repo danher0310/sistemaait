@@ -2,13 +2,18 @@
 .navbar-fixed-top{
 	padding-top: 12px;
 	padding-bottom: 12px;
-	/*background-color: #33bb7a;*/
-    background-color: rgb(5,67,87);
+	/*background-color: #33bb7a;*/    
+
+    background-color: rgb(236,230,242);
     /*-webkit-background-clip: text !important;*/
     /*color:  transparent !important;*/
 
 	box-shadow: 0px 5px 26px -2px rgba(0, 0, 0, 0.35);
 	border: none !important;
+}
+
+.navbar-fixed-top #logo{
+    margin-top: -30px !important;
 }
 
 .navbar-fixed-top #logo {
@@ -18,7 +23,7 @@
 	margin-left: 20px;
 } 
 .navbar-fixed-top .navbar-collapse li a{
-	color: #fff !important;
+	color: rgb(5,67,87) !important;
 	font-weight: 600;
 	transition: all .25s;
 	font-size: 16px;
@@ -28,7 +33,7 @@
 }
 
 .navbar-fixed-top .navbar-collapse li a:hover{
-	background-color: rgb(5,67,87);
+	background-color: rgb(236,230,242) ;
 
 }
 
@@ -49,7 +54,7 @@
 	border-radius: 20px;
 	border:  none;
 	margin-top: 12px !important;
-	 background-color: rgb(5,67,87);
+	 background-color: rgb(236,230,242);;
 	opacity: 0.7;
    
 }
@@ -58,8 +63,9 @@
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
     font-weight: 900 !important;
-    background-color: rgb(5,67,87);
+    background-color: rgb(236,230,242);
     display: block !important;
+
 }
 
 .dropdown-toggle .fa-caret-right {
@@ -108,6 +114,23 @@ form .input-group{
 }
 
 /*formulario*/
+
+/*gestion*/
+#gestion-usuario{
+    margin-top: 100px !important;
+}
+
+#gestion-usuario #title-table{
+    margin-bottom: 50px;
+}
+
+#gestion-usurio  table{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+/*gestion*/
 
 /*//////////////////////////////////////////
 ///////////////////////////////////////////

@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- head-->
-	<?php include 'assets/head.php'; ?>
-	<!-- /head-->
-	<title>Regsitro de usuario</title>
-</head>
-<body>
+<?php include 'assets/headerf.php'; ?>
+	
 
 	<!--navbar-->
-	<?php include 'assets/navbar.php'; ?>
+		<?php include 'assets/navbar-sesion.php'; ?>
 
 	
 	<!--/navbar-->
@@ -18,13 +11,12 @@
 		<div class=" container-fluid">
 			<div class="row">
 				<div class="col-md-12"id="formularios">
-					<h2 class="text-center"> Registro de equipo</h2>
+					<h2 class="text-center"> Registro de equipo y asignacion</h2>
 
-					<p class="text-center"> En el siguiente formulario en caso de registrar una laptop en la seccion de periferico si no posee uno asignado colocar N/A</p>
+					<p class="text-center"> En el siguiente formulario en caso de registrar una laptop en la seccion de periferico si no posee uno asignado dejarlo en blanco</p>
 					
 				</div>
-				<!--<div id="div1" onclick="this.style.display='none';document.getElementById('div2').style.display='block';">contendido del div1</div>
-				<div id="div2" style="display:none" onclick="this.style.display='none';document.getElementById('div1').style.display='block';">contendido del div2</div>-->
+				
 				
 			</div>
 			
@@ -56,6 +48,11 @@
 			 		 	 	<span class="input-group-addon">HDD o SSD:</span>
 	                        <input class="form-control" type="text"  placeholder="500GB" id="hdd" >
 	                    </div> 
+	                     <div class="input-group">
+			 		 	 	<span class="input-group-addon">Fecha del ultimo Mantenimiento:</span>
+	                        <input class="form-control" type="date"  placeholder="TR45GD" id="mantenimiento" >
+	                    </div> 
+	                     
 
 	                    	<h3 class="text-center"> Perifericos</h3>
 
@@ -81,10 +78,24 @@
 			 		 	 	<span class="input-group-addon"> Perifericos adicionales:</span>
 	                        <textarea name="descripcion" class="form-control" type="text"  placeholder="Cornetas seriales: Qasdef, rusuarios.phptarjeta de red" id="extrasperi" ></textarea>
 	                    </div> 
+
+	                    <h3 class="text-center">Asignacion:</h3>
+
 	                    <div class="input-group">
-			 		 	 	<span class="input-group-addon">Fecha del ultimo Mantenimiento:</span>
-	                        <input class="form-control" type="date"  placeholder="TR45GD" id="mantenimiento" >
+			 		 	 	<span class="input-group-addon">Asignada:</span>
+	                        <input class="form-control" type="text"  placeholder="Pedro Perez" id="nombreasig" >
 	                    </div> 
+	                    <div class="input-group">
+			 		 	 	<span class="input-group-addon">C.I. del asignado:</span>
+	                        <input class="form-control" type="text"  placeholder="V5815558" id="cdasigna" >
+	                    </div> 
+	                     <div class="input-group">
+			 		 	 	<span class="input-group-addon">Departamento:</span>
+	                        <input class="form-control" type="text"  placeholder="administracion" id="departamento" >
+	                    </div> 
+
+
+	                   
 
 
 	                    

@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- head-->
-	<?php include 'assets/head.php'; ?>
-	<!-- /head-->
-	<title>Regsitro de usuario</title>
-</head>
-<body>
 
-	<!--navbar-->
-	<?php include 'assets/navbar.php'; ?>
-	<!--/navbar-->
+
+<?php include 'assets/headerf.php'; ?>
+	
 
 	<section id=" formularios">
 		<div class=" container-fluid">
@@ -30,7 +21,7 @@
 					<form  id="registrar-usuario">
 
 			 		 	 <div class="input-group">
-			 		 	 	 <span class="input-group-addon">Equipo:</span>	                    	
+			 		 	 	 <span class="input-group-addon">Nombre:</span>	                    	
 	                        <input class="form-control" type="text"  placeholder="Jhon Doe" aria-describedby="basic-addon3" id="name" >
 	                    </div>
 	                    

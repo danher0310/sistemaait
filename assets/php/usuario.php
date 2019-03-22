@@ -18,7 +18,7 @@ if(!empty($nombre) && !empty($cedula) && !empty($correo) && !empty($user) && !em
 	if($pass == $conpas){
 		if (strlen($pass) > 7 && strlen($pass) < 17){
 			list($v_e_p, $num_cedula) = explode("-", $cedula);
-			if (is_numeric($num_cedula)){
+			if (is_numeric($num_cedula)){ 
 
 				$user = strtoupper(trim($user));
 				#elimina los espacios en blanco y pone el nombre de usuario en mayus.
